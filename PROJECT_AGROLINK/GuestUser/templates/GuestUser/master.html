@@ -16,8 +16,11 @@
     <title>Agrolink</title>
   {% endif%}
 
+  <!-- Link to Bootstrap CSS (add your own CDN link or local file reference) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
   <!-- Favicons -->
-  <link href="img/LG1.jfif" rel="icon">
+  <link href="{% static 'GuestUser/img/LG1.jfif' %}" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
@@ -41,7 +44,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div id="logo">
-        <a href="index.html"><img src="assets/img/LG1.jfif" width="120px" height="100px" alt="" title=" agrolink" />
+        <a href="index.html"><img src="{% static 'GuestUser/img/LG1.jfif' %}" width="120px" height="100px" alt="" title=" agrolink" />
          <strong>AgroLink</strong></a>
       </div>
 
@@ -57,7 +60,7 @@
                 <ul>
                   <li><a href="#">Crop Cultivation</a></li>
                   <li><a href="#">Agro Forestry</a></li>
-                  <li><a href="#">Hoticulture</a></li>
+                  <li><a href="#">Horticulture</a></li>
                   <li><a href="#">Animal Farming</a></li>
                   <li><a href="#">AquaCulture</a></li>
                 </ul>
@@ -76,8 +79,9 @@
 
 <!-- Start Main -->
   {% block content %}
-  {% endblock %}
-<!-- End #main -->
+  {% endblock content %}
+
+<!-- End main -->
 
   <!-- ======= Footer ======= -->
   <footer class="footer">
@@ -100,7 +104,7 @@
             <h4>Features</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">Connect</a></li>S
+              <li><a href="#">Connect</a></li>
               <li><a href="#">Training</a></li>
               <li><a href="#">Consultation</a></li>
               <li><a href="#">Market</a></li>
@@ -169,6 +173,11 @@
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Link to Bootstrap JS (add your own CDN link or local file reference) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
