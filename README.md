@@ -3,7 +3,7 @@ the project
 
 yall can work and push to this repo, make updates etc.
 
-i would suggest creating a branch when making big changes and notify in case we need to merge the brach to the MAIN ONE.
+use git to the repo onto your local machine 
 
-okay so the document is full of asp l donno how your gonna do it
+before you add changes you need to firls pull from the repo incase another collarborator had made changes so we can prevent merge conflicts.
 
