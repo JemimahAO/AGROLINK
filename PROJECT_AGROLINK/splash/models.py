@@ -7,5 +7,5 @@ class city(models.Model):
         return self.name
 
         class Meta:
-            verbose name plural = 'cities'
+           ## verbose name plural = 'cities'
 
